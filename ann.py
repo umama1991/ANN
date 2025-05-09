@@ -31,8 +31,8 @@ input_data=pd.DataFrame({
     
     "CreditScore":[credit_score],
     "Gender": [label_encoder_gender.transform([gender])[0]],
-    "Tenure":[tenure],
     "Age" :[age],
+    "Tenure":[tenure],
     "Balance" : [balance],
     "NumOfProducts" : [num_of_products],
     "HasCrCard" :[has_cr_card],
